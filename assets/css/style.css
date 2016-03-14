@@ -1,5 +1,5 @@
 body {
-    background-image:  url('../img/fondo.png');
+    background-image:  url('../img/fondo.png'); background-size: cover; 
   -webkit-animation: background 10s cubic-bezier(0,0,1,1) infinite;
 }
 
@@ -11,19 +11,36 @@ body {
   100% { background-color: #0b1e4f; }
 }
 
-
-#logo {
-	background-image: url("../img/ovnion.png");
-	background-repeat: no-repeat;
-  background-position: center;
-  top: 10%;
-  height: 30%;
+.text {
+  color: #ffffff;
+  text-align: center;
+  top: 52%;
+  padding-left: 100px;
+  width: 300px;
+  height: 5%;
   position:absolute;
   bottom: 0;
   margin: 0 auto;
   left: 0;
   right: 0;
   z-index: 100;
+}
+
+#logo {
+	background-image: url("../img/ovnion.png");
+	background-repeat: no-repeat;
+  background-position: center;
+  top: -10%;
+  position:absolute;
+  bottom: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+#particles-js {
+  height: 90%;
+  width: 100%;
 }
 
 #mail {
