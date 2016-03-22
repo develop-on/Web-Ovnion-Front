@@ -141,7 +141,7 @@
 	padding: 0.85em 0.15em;
 	width: 100%;
 	background: transparent;
-	color: #595F6E;
+	color: #ffffff;
 }
 
 .input__label--hoshi {
@@ -157,6 +157,7 @@
 
 .input__label-content--hoshi {
 	position: absolute;
+	color: #A0B5D0;
 }
 
 .input__label--hoshi::before,
