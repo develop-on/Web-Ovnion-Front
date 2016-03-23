@@ -12,40 +12,43 @@
  </head>
  <body>
 
-<!-- Formulario de consulta -->
-<div id="logo2"></div>
-      <section id="formulario" class="content"><br><br>
-        <span class="input input--hoshi">
-          <input class="input__field input__field--hoshi" type="text" id="input-4" />
-          <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
-            <span class="input__label-content input__label-content--hoshi">Mail</span>
-          </label>
-        </span>
-        <span class="input input--hoshi">
-          <input class="input__field input__field--hoshi" type="text" id="input-5" />
-          <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-5">
-            <span class="input__label-content input__label-content--hoshi">Consulta</span>
-          </label>
-        </span>
-        <div class="btn">Enviar</div>
-      </section>
-<!-- End - Formulario de consulta -->
+  <!-- Formulario de consulta -->
+  <div id="logo2"></div>
 
 
+  <section id="formulario" class="content"><br><br>
+    <form action="#"  method="post">
+      <span class="input input--hoshi">
+        <input class="input__field input__field--hoshi" type="text" id="input-4" name="mail" />
+        <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+          <span class="input__label-content input__label-content--hoshi">Mail:</span>
+        </label>
+      </span>
+      <span class="input input--hoshi">
+        <input class="input__field input__field--hoshi" type="text" id="input-5" name="consulta" />
+        <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-5">
+          <span class="input__label-content input__label-content--hoshi">Consulta:</span>
+        </label>
+      </span>
+      <div class="btn" onclick="javascript:this.parentNode.submit();">Enviar</div>
+    </from>
+  </section>
 
-<!-- Contenedor general  -->
-      <div id="contenedor">
-      <div class="animated FadeIn" id="logo"></div>
-      <div class="text animated flipInY" id="slogan">Advanced web development</div>
-      </div>
-<!-- End - Contenedor general  -->
+  <!-- End - Formulario de consulta -->
 
-      <div class="anime"></div>
-      <div id="particles-js"></div>
-      <script src="assets/js/main.js"></script>
-      <script src="assets/js/classie.js"></script>
-      <script src="assets/js/particles.js"></script>
-      <script src="assets/js/app.js"></script>
-      <script src="assets/js/buttom-animation.js"></script>
-    </body>
-    </html>
+  <!-- Contenedor general  -->
+  <div id="contenedor">
+    <div class="animated FadeIn" id="logo"></div>
+    <div class="text animated flipInY" id="slogan">Advanced web development</div>
+  </div>
+  <!-- End - Contenedor general  -->
+
+  <div class="anime"></div>
+  <div id="particles-js"></div>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/classie.js"></script>
+  <script src="assets/js/particles.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/buttom-animation.js"></script>
+</body>
+</html>
