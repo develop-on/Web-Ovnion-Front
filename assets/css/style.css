@@ -29,20 +29,22 @@ body {
 }
 
 
-.text {
-  color: #ffffff;
-  text-align: center;
-  top: 52%;
-  padding-left: 100px;
-  width: 328px;
-  height: 5%;
-  position:absolute;
+#contenedor {
+  position: relative;
+}
+
+#contenedor > * {
+  position: absolute;
   bottom: 0;
   margin: 0 auto;
   left: 0;
   right: 0;
-  z-index: 100;
+  top:200;
+  z-index: 10;
 }
+
+
+
 
 #logo {
   cursor:pointer;
@@ -51,12 +53,19 @@ body {
   background-image: url("../img/ovnion.png");
   background-repeat: no-repeat;
   background-position: center;
-  top: 35%;
-  position:absolute;
-  bottom: 0;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
+   z-index: 100;
+
+}
+
+.text {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 111px;
+  padding-left: 100px;
+  width: 328px;
+  height: 5%;
+  z-index: 100;
+
 }
 
 #logo2 {
@@ -154,7 +163,7 @@ body {
 
 @media (max-width: 992px) {
       .text {
-        top: 54%;
+      /*  top: 54%;*/
       }
       .anime {
       top: 2%;
